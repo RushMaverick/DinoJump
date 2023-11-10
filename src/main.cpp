@@ -1,9 +1,18 @@
 #include <SFML/Graphics.hpp>
+#include <iostream>
+
+
+void movePlayer() {
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
+		std::cout << "I pressed a key woohoo" << std::endl;
+}
 
 int main()
 {
-    auto window = sf::RenderWindow{ { 1920u, 1080u }, "CMake SFML Project" };
-    window.setFramerateLimit(144);
+    auto window = sf::RenderWindow{ { 800, 600 }, "DinoJump" };
+    window.setFramerateLimit(60);
+	sf::RectangleShape rect;
+
 
     while (window.isOpen())
     {
@@ -13,6 +22,7 @@ int main()
             {
                 window.close();
             }
+			movePlayer();
         }
 
         window.clear();

@@ -8,13 +8,13 @@ class Player {
 	private:
 		std::string _name;
 		int _size;
-		float _moveSpeed;
 		sf::RectangleShape rect;
 		sf::Texture txtr;
 		sf::Image img;
-		sf::Sprite sprt;
+		float _moveSpeed;
 	public:
 		
+		sf::Sprite sprt;
 		Player();
 		Player(std::string _name);
 		Player(const Player &copy);

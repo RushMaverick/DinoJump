@@ -1,6 +1,7 @@
 #include "Player.hpp"
 #include <SFML/Graphics.hpp>
 #include <SFML/Window/Event.hpp>
+#include <iostream>
 
 const int WINDOW_HEIGHT = 600;
 const int WINDOW_WIDTH = 800;
@@ -25,17 +26,17 @@ void movePlayer(sf::Time dt, Player *rect) {
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)){
         velocity.x += rect->getMoveSpeed() * dt.asSeconds();
     }
-    rect->getSprite().move(velocity);
+	rect->sprt.move(velocity);
 
 	// Collision with edge of screen
-    if (rect->getSprite().getPosition().x < 0.f)
-        rect->getSprite().setPosition(0.f, rect->getSprite().getPosition().y);
-    if (rect->getSprite().getPosition().y < 0.f)
-        rect->getSprite().setPosition(rect->getSprite().getPosition().x, 0.f);
-    if (rect->getSprite().getPosition().x + rect->getSprite().getGlobalBounds().width > WINDOW_WIDTH)
-	    rect->getSprite().setPosition(WINDOW_WIDTH - rect->getSprite().getGlobalBounds().width, rect->getSprite().getPosition().y);
-    if (rect->getSprite().getPosition().y + rect->getSprite().getGlobalBounds().height > WINDOW_HEIGHT)
-        rect->getSprite().setPosition(rect->getSprite().getPosition().x, WINDOW_HEIGHT - rect->getSprite().getGlobalBounds().height);
+    if (rect->sprt.getPosition().x < 0.f)
+        rect->sprt.setPosition(0.f, rect->sprt.getPosition().y);
+    if (rect->sprt.getPosition().y < 0.f)
+        rect->sprt.setPosition(rect->sprt.getPosition().x, 0.f);
+    if (rect->sprt.getPosition().x + rect->sprt.getGlobalBounds().width > WINDOW_WIDTH)
+	    rect->sprt.setPosition(WINDOW_WIDTH - rect->sprt.getGlobalBounds().width, rect->sprt.getPosition().y);
+    if (rect->sprt.getPosition().y + rect->sprt.getGlobalBounds().height > WINDOW_HEIGHT)
+        rect->sprt.setPosition(rect->sprt.getPosition().x, WINDOW_HEIGHT - rect->sprt.getGlobalBounds().height);
 }
 
 void updateWindow(sf::RenderWindow &window, Player *rect) {
@@ -46,7 +47,7 @@ void updateWindow(sf::RenderWindow &window, Player *rect) {
 
 int main()
 {
-    auto window = sf::RenderWindow{ { WINDOW_WIDTH, WINDOW_HEIGHT }, "DinoJump" };
+    auto window = sf::RenderWindow{ {WINDOW_WIDTH, WINDOW_HEIGHT}, "DinoJump" };
     window.setFramerateLimit(60);
 	Player *rect = new Player("Lad");
 

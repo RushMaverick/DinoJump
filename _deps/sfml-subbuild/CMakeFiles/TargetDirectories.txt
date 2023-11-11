@@ -1,0 +1,3 @@
+/Users/rrask/Desktop/DinoJump/_deps/sfml-subbuild/CMakeFiles/sfml-populate.dir
+/Users/rrask/Desktop/DinoJump/_deps/sfml-subbuild/CMakeFiles/ALL_BUILD.dir
+/Users/rrask/Desktop/DinoJump/_deps/sfml-subbuild/CMakeFiles/ZERO_CHECK.dir

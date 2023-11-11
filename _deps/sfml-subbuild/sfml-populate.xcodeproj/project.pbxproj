@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		40980BD0D3444E13A6E23491 /* sfml-populate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 19237171A7B447798938FCDC /* Build configuration list for PBXAggregateTarget "sfml-populate" */;
+			buildPhases = (
+				7E043BE96BEF47B6A4F5E856 /* CMake Rules */,
+			);
+			dependencies = (
+				00CD200CA3A84E95882128C4 /* PBXTargetDependency */,
+			);
+			name = "sfml-populate";
+			productName = "sfml-populate";
+		};
+		E865DDF7D44642F0961B2C13 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0A26B5FF5DD841A3B67EE46E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				6C837D2FCEF24B95A113BD7A /* CMake Rules */,
+			);
+			dependencies = (
+				667FF1B623654F979CEBBDC2 /* PBXTargetDependency */,
+				85F82A147DA84304BBC23E47 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		FBEDAF9BA83E40118EBD3D9F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7B0DBF153720462D9FE7DA8B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				89F24959EB7B4C91A7423D9B /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildStyle section */
+		401660A160CB4CE3B81CD9FB /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		80EC6D457C6A4331926A7F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D6CE01FF71C433CA4215794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40980BD0D3444E13A6E23491;
+			remoteInfo = "sfml-populate";
+		};
+		B9B7EF71B0A0482EB7A7E5BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D6CE01FF71C433CA4215794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBEDAF9BA83E40118EBD3D9F;
+			remoteInfo = ZERO_CHECK;
+		};
+		DA18BC45255F45D9A8DD8A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D6CE01FF71C433CA4215794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBEDAF9BA83E40118EBD3D9F;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24347257402643058BF9740D /* /Users/rrask/Desktop/DinoJump/_deps/sfml-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A3AF8DE97569415590C190B9 /* /Users/rrask/Desktop/DinoJump/_deps/sfml-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		17E9722928864BBAAC2275B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2ADB71F546D74197BAA9DACD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B980ED3989140CBB186837A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		41C7377BF87C41279445CFC7 /* sfml-populate */ = {
+			isa = PBXGroup;
+			children = (
+				2B980ED3989140CBB186837A /* CMake Rules */,
+				24347257402643058BF9740D /* /Users/rrask/Desktop/DinoJump/_deps/sfml-subbuild/CMakeLists.txt */,
+			);
+			name = "sfml-populate";
+			sourceTree = "<group>";
+		};
+		5A223B9D9CED4691A299B7A1 /* ExternalProjectTargets */ = {
+			isa = PBXGroup;
+			children = (
+				D724C67F46DA48BDB24D539A /* sfml-populate */,
+			);
+			name = ExternalProjectTargets;
+			sourceTree = "<group>";
+		};
+		9BA3F377D42F45C5AC5BE956 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D724C67F46DA48BDB24D539A /* sfml-populate */ = {
+			isa = PBXGroup;
+			children = (
+				41C7377BF87C41279445CFC7 /* sfml-populate */,
+			);
+			name = "sfml-populate";
+			sourceTree = "<group>";
+		};
+		DD4590299E28444B8BE39D2B = {
+			isa = PBXGroup;
+			children = (
+				5A223B9D9CED4691A299B7A1 /* ExternalProjectTargets */,
+				FA145C3D64A44447869A803A /* ALL_BUILD */,
+				2ADB71F546D74197BAA9DACD /* Products */,
+				17E9722928864BBAAC2275B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA145C3D64A44447869A803A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9BA3F377D42F45C5AC5BE956 /* CMake Rules */,
+				A3AF8DE97569415590C190B9 /* /Users/rrask/Desktop/DinoJump/_deps/sfml-subbuild/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		7D6CE01FF71C433CA4215794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = C41A749F1FB648A281E19F19 /* Build configuration list for PBXProject "sfml-populate" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				401660A160CB4CE3B81CD9FB /* Debug */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = DD4590299E28444B8BE39D2B;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				E865DDF7D44642F0961B2C13 /* ALL_BUILD */,
+				FBEDAF9BA83E40118EBD3D9F /* ZERO_CHECK */,
+				40980BD0D3444E13A6E23491 /* sfml-populate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6C837D2FCEF24B95A113BD7A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/rrask/Desktop/DinoJump/_deps/sfml-subbuild -f /Users/rrask/Desktop/DinoJump/_deps/sfml-subbuild/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		7E043BE96BEF47B6A4F5E856 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/rrask/Desktop/DinoJump/_deps/sfml-subbuild -f /Users/rrask/Desktop/DinoJump/_deps/sfml-subbuild/CMakeScripts/sfml-populate_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		89F24959EB7B4C91A7423D9B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/rrask/Desktop/DinoJump/_deps/sfml-subbuild -f /Users/rrask/Desktop/DinoJump/_deps/sfml-subbuild/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		ECFABDB909A10F90080D6000 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00CD200CA3A84E95882128C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBEDAF9BA83E40118EBD3D9F /* ZERO_CHECK */;
+			targetProxy = B9B7EF71B0A0482EB7A7E5BC /* PBXContainerItemProxy */;
+		};
+		667FF1B623654F979CEBBDC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40980BD0D3444E13A6E23491 /* sfml-populate */;
+			targetProxy = 80EC6D457C6A4331926A7F99 /* PBXContainerItemProxy */;
+		};
+		85F82A147DA84304BBC23E47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBEDAF9BA83E40118EBD3D9F /* ZERO_CHECK */;
+			targetProxy = DA18BC45255F45D9A8DD8A65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40AD0315B3394426A07934DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/rrask/Desktop/DinoJump/_deps/sfml-subbuild/build";
+			};
+			name = Debug;
+		};
+		912F0826EB96460C990FDCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "sfml-populate";
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A0AEB37776CC44ABB5710F72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B3C84391FCBA4D26907562F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A26B5FF5DD841A3B67EE46E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C84391FCBA4D26907562F9 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		19237171A7B447798938FCDC /* Build configuration list for PBXAggregateTarget "sfml-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912F0826EB96460C990FDCA1 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7B0DBF153720462D9FE7DA8B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0AEB37776CC44ABB5710F72 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C41A749F1FB648A281E19F19 /* Build configuration list for PBXProject "sfml-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40AD0315B3394426A07934DC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D6CE01FF71C433CA4215794 /* Project object */;
+}
